@@ -15,7 +15,7 @@ app.get('/favicon.ico', function (req, res) {
 
 app.get('/:timestamp', timestampHandler.getTime);
 
-var port = process.env.PORT || CONFIG.port;
+var port = process.env.PORT || 80;
 app.listen(port);
 
 app.listen(port, function () {
