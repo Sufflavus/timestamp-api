@@ -15,6 +15,9 @@ app.get('/favicon.ico', function (req, res) {
 
 app.get('/:timestamp', timestampHandler.getTime);
 
-app.listen(8080, function () {
-  console.log('Timestamp app listening on port 8080!');
+var port = process.env.PORT || CONFIG.port;
+app.listen(port);
+
+app.listen(port, function () {
+  console.log(`Timestamp app listening on port ${port}!`);
 });
