@@ -2,7 +2,7 @@
 
 function TimestampHandler (moment) {
 	var path = process.cwd();
-	var DateTimeConverter = require(path + '/app/date-time-converter.js');
+	var DateTimeConverter = require(path + '/date-time-converter.js');
 	var dateTimeConverter = new DateTimeConverter(moment);
 
 	this.getTime = function (req, res) {
