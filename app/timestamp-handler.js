@@ -1,8 +1,9 @@
 'use strict';
 
-function TimestampHandler () {
+function TimestampHandler (moment) {
 	var path = process.cwd();
-	var dateTimeConverter = require(path + '/app/date-time-converter.js');
+	var DateTimeConverter = require(path + '/app/date-time-converter.js');
+	var dateTimeConverter = new DateTimeConverter(moment);
 
 	this.getTime = function (req, res) {
 		var timestamp = decodeURIComponent(req.params.timestamp);

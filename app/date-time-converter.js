@@ -1,7 +1,6 @@
 'use strict';
 
-var dateTimeConverter = (function() {
-    var moment = require('/node_modules/moment');
+function DateTimeConverter (moment) {
 	var naturalDateFormat = "MMMM DD, YYYY";
 	
 	return {
@@ -32,6 +31,6 @@ var dateTimeConverter = (function() {
 	function toUnixDateString(date) {
 		return moment(date).format("X"); 
 	}
-})();
+}
 
-module.exports = dateTimeConverter;
+module.exports = DateTimeConverter;
