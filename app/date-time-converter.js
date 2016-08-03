@@ -1,7 +1,7 @@
 'use strict';
 
 var dateTimeConverter = (function() {
-    var moment = require('moment');
+    var moment = require('/node_modules/moment');
 	var naturalDateFormat = "MMMM DD, YYYY";
 	
 	return {
