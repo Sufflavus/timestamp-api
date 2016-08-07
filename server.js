@@ -2,7 +2,7 @@ var express = require('express');
 var moment = require('moment');
 
 var path = process.cwd();
-var TimestampHandler = require('timestamp-handler');
+var TimestampHandler = require('./timestamp-handler');
 
 var app = express();
 var timestampHandler = new TimestampHandler(moment);
