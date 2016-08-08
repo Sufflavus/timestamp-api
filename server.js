@@ -1,4 +1,4 @@
-var express = require('express');
+/*var express = require('express');
 var moment = require('moment');
 
 var path = process.cwd();
@@ -22,3 +22,15 @@ app.listen(port);
 app.listen(port, function () {
   console.log(`Timestamp app listening on port ${port}!`);
 });
+*/
+var http=require('http');
+
+var server=http.createServer(function(req,res){
+    res.end('test');
+});
+
+server.on('listening',function(){
+    console.log('ok, server is running');
+});
+
+server.listen(80);
