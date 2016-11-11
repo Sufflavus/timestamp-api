@@ -1,5 +1,8 @@
 # timestamp-api
-[![Heroku](https://heroku-badge.herokuapp.com/?app=tata-fcc-timestamp)]
+==================
+[![Heroku](https://heroku-badge.herokuapp.com/?app=tata-fcc-timestamp&style=flat)](https://tata-fcc-timestamp.herokuapp.com/)
+
+## Live example
 This app is runned on Heroku: [https://tata-fcc-timestamp.herokuapp.com/](https://tata-fcc-timestamp.herokuapp.com/)
 
 ## List of used tecnologies and libraries:
