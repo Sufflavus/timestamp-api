@@ -1,5 +1,4 @@
 # timestamp-api
-==================
 [![Heroku](https://heroku-badge.herokuapp.com/?app=tata-fcc-timestamp&style=flat)](https://tata-fcc-timestamp.herokuapp.com/)
 
 ## Live example
